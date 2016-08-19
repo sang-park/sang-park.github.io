@@ -52,7 +52,7 @@ table {
   padding-bottom: 50px; }
   .navbar * {
     padding: 10px 0 0 0; }
-  .navbar h4 {
+  .navbar h2 {
     font-weight: 300;
     font-size: 56px; }
   .navbar div {
@@ -65,19 +65,37 @@ table {
   justify-content: center;
   font-size: 15px;
   background-color: gray;
-  height: 50px;
+  height: 100%;
   width: 100%; }
   .nav-options.docked {
     position: fixed;
     top: 0; }
-  .nav-options div {
+  .nav-options .container {
     display: block;
     width: 80%;
     padding: 0; }
-    .nav-options div ul {
+    .nav-options .container > ul {
       display: flex;
       justify-content: center; }
-    .nav-options div li {
-      margin: 15px; }
+      .nav-options .container > ul .options {
+        padding: 15px;
+        background-color: gray; }
+        .nav-options .container > ul .options:hover {
+          cursor: pointer;
+          background-color: lightgray; }
+  .nav-options .dropdown-content {
+    display: none; }
+  .nav-options .dropdown-wrapper {
+    position: relative; }
+    .nav-options .dropdown-wrapper:hover .dropdown-content {
+      background-color: gray;
+      display: inline;
+      position: absolute; }
+      .nav-options .dropdown-wrapper:hover .dropdown-content li {
+        padding: 15px;
+        margin: 0px; }
+        .nav-options .dropdown-wrapper:hover .dropdown-content li:hover {
+          cursor: pointer;
+          background-color: lightgray; }
 
 /*# sourceMappingURL=main.css.map */
