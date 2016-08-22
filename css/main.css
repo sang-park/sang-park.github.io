@@ -32,6 +32,9 @@ ol, ul {
 blockquote, q {
   quotes: none; }
 
+a {
+  text-decoration: none; }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
@@ -103,15 +106,18 @@ h6 {
       display: inline;
       position: absolute; }
       .nav-options .dropdown-wrapper:hover .dropdown-content li {
-        padding: 15px;
+        padding: 0px;
         margin: 0px; }
         .nav-options .dropdown-wrapper:hover .dropdown-content li a {
+          padding: 15px;
+          display: block;
           text-decoration: none;
           color: white; }
         .nav-options .dropdown-wrapper:hover .dropdown-content li:hover {
           cursor: pointer;
           background-color: #738BD1; }
           .nav-options .dropdown-wrapper:hover .dropdown-content li:hover a {
+            display: block;
             color: #3550A1; }
 
 main section {
