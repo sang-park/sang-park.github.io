@@ -120,10 +120,15 @@ main section {
     text-align: center;
     color: #738BD1;
     margin-bottom: 20px; }
+  main section #projects-wrapper li {
+    border-bottom: 1px dashed #738BD1; }
+    main section #projects-wrapper li:last-child {
+      border-bottom: 0; }
   main section li {
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px; }
+    margin-bottom: 25px;
+    padding-bottom: 25px; }
     main section li .description {
       display: flex;
       flex-direction: row;
@@ -135,9 +140,42 @@ main section {
         width: 68%;
         text-align: center; }
         main section li .description > div p {
-          text-align: left; }
+          text-align: left;
+          padding-bottom: 20px; }
         main section li .description > div button {
           margin: 10px; }
+
+footer {
+  height: 200px;
+  background-color: #738BD1;
+  display: flex;
+  justify-content: center; }
+  footer div {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white; }
+    footer div p {
+      font-size: 24px;
+      text-align: center; }
+  footer ul {
+    display: flex;
+    flex-direction: row; }
+    footer ul li {
+      padding: 0 10px 0 10px;
+      border-right: 1px solid #3550A1;
+      margin: 0;
+      width: auto;
+      text-align: center; }
+      footer ul li:last-child {
+        border: 0; }
+      footer ul li a {
+        text-decoration: none;
+        color: inherit; }
 
 button {
   border-style: solid;
