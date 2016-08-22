@@ -119,6 +119,7 @@ main section {
   display: flex;
   flex-direction: column; }
   main section h4 {
+    margin-top: 50px;
     color: #3550A1; }
   main section h6 {
     text-align: center;

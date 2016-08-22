@@ -11,18 +11,17 @@ $(function(){
       }
   });
 
-  var navbarHeight = 52;
 
 
   $("#about-me-nav").click(function(event){
     $('html, body').animate({
-      scrollTop: ($('#about-me').offset().top - navbarHeight)
+      scrollTop: ($('#about-me').offset().top )
     });
   });
 
   $("#projects-nav").click(function(event){
     $('html, body').animate({
-      scrollTop: ($('#my-projects').offset().top - navbarHeight)
+      scrollTop: ($('#my-projects').offset().top )
     });
   });
   $("#contact-nav").click(function(event){
