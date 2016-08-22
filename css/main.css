@@ -71,7 +71,7 @@ h6 {
     font-size: 24px; }
 
 .nav-options {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   font-size: 15px;
@@ -105,10 +105,14 @@ h6 {
       .nav-options .dropdown-wrapper:hover .dropdown-content li {
         padding: 15px;
         margin: 0px; }
+        .nav-options .dropdown-wrapper:hover .dropdown-content li a {
+          text-decoration: none;
+          color: white; }
         .nav-options .dropdown-wrapper:hover .dropdown-content li:hover {
           cursor: pointer;
-          background-color: #738BD1;
-          color: #3550A1; }
+          background-color: #738BD1; }
+          .nav-options .dropdown-wrapper:hover .dropdown-content li:hover a {
+            color: #3550A1; }
 
 main section {
   margin: 50px;
@@ -167,7 +171,7 @@ footer {
     flex-direction: row; }
     footer ul li {
       padding: 0 10px 0 10px;
-      border-right: 1px solid #3550A1;
+      border-right: 1px solid white;
       margin: 0;
       width: auto;
       text-align: center; }
@@ -190,5 +194,8 @@ button {
     border-color: #3550A1;
     color: #3550A1;
     cursor: pointer; }
+
+#resume {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
