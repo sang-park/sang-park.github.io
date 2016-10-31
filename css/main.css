@@ -205,4 +205,10 @@ button {
 #resume {
   display: none; }
 
+.under-construction {
+  text-align: center;
+  size: 36px;
+  color: #3550A1;
+  padding: 20px;
+}
 /*# sourceMappingURL=main.css.map */
