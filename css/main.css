@@ -188,6 +188,10 @@ footer {
         text-decoration: none;
         color: inherit; }
 
+#logo {
+  width: 300px;
+  height: 200px; }
+
 button {
   border-style: solid;
   border-radius: 5px;
@@ -202,13 +206,4 @@ button {
     color: #3550A1;
     cursor: pointer; }
 
-#resume {
-  display: none; }
-
-.under-construction {
-  text-align: center;
-  size: 36px;
-  color: #3550A1;
-  padding: 20px;
-}
 /*# sourceMappingURL=main.css.map */

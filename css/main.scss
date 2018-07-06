@@ -168,7 +168,7 @@ main {
       margin-bottom: 20px;
     }
 
-    #projects-wrapper li{
+    #projects-wrapper li {
       border-bottom: 1px dashed #738BD1;
       &:last-child {
         border-bottom: 0;
@@ -249,6 +249,11 @@ footer {
   }
 }
 
+#logo {
+  width: 300px;
+  height: 200px;
+}
+
 button {
   border-style: solid;
   border-radius: 5px;
@@ -264,13 +269,4 @@ button {
     color: #3550A1;
     cursor: pointer;
   }
-}
-
-#resume {
-  display:none;
-//   &.show {
-//     position: fixed;
-//     z-index: 1;
-//     display: block;
-//   }
 }
