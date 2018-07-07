@@ -139,14 +139,18 @@ main section {
     display: flex;
     flex-direction: column;
     margin-bottom: 25px;
-    padding-bottom: 25px; }
+    padding-bottom: 25px;
+    height: 300px; }
     main section li .description {
       display: flex;
       flex-direction: row;
       justify-content: space-between; }
       main section li .description img {
-        height: 200px;
-        width: 30%; }
+        height: auto;
+        width: auto;
+        min-width: 30%;
+        max-height: 200px;
+        max-width: 40%; }
       main section li .description > div {
         width: 68%;
         text-align: center; }
@@ -187,10 +191,6 @@ footer {
       footer ul li a {
         text-decoration: none;
         color: inherit; }
-
-#logo {
-  width: 300px;
-  height: 200px; }
 
 button {
   border-style: solid;
