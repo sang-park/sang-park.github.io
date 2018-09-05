@@ -18,6 +18,12 @@ $(function(){
       scrollTop: ($('#about-me').offset().top )
     });
   });
+  $("#experience-nav").click(function(event){
+    $('html, body').animate({
+      scrollTop: ($('#experience').offset().top )
+    });
+  });
+
 
   $("#projects-nav").click(function(event){
     $('html, body').animate({
