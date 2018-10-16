@@ -147,10 +147,9 @@ main section {
       justify-content: space-between; }
       main section li .description img {
         height: auto;
-        width: auto;
-        min-width: 30%;
+        width: 30%;
         max-height: 200px;
-        max-width: 40%; }
+        padding: 0 10px; }
       main section li .description > div {
         width: 68%;
         text-align: center; }
